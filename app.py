@@ -146,21 +146,6 @@ def infer(audio_file, has_lyrics):
     result = get_text_after_colon(result)
 
     print(f"Llama2 result: {result}")
-
-    #gr.Info("Prompt Optimization ...")
-    #get_shorter_prompt = f"""
-    #From this image description, please provide a short but efficient summary for a good Stable Diffusion prompt:
-    #'{result}'
-    #"""
-
-    #shorten = client.predict(
-    #				get_shorter_prompt,	# str in 'Message' Textbox component
-    #				api_name="/predict"
-    #)  
-
-    #print(f'SHORTEN PROMPT: {shorten}')
-
-    # ———
     print("""———
     Calling SD-XL ...
     """)
@@ -171,7 +156,6 @@ def infer(audio_file, has_lyrics):
 
     print("Finished")
     
-    #return cap_result, result, images
     return processed_audio, images, result, gr.update(visible=True), gr.Group.update(visible=True)
 
 css = """
