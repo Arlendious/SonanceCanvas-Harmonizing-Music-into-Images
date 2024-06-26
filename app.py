@@ -6,9 +6,9 @@ lpmc_client = gr.load("seungheondoh/LP-Music-Caps-demo", src="spaces")
 
 from gradio_client import Client
 
-client = Client("https://fffiloni-test-llama-api-debug.hf.space/", hf_token=hf_token)
-lyrics_client = Client("https://fffiloni-music-to-lyrics.hf.space/")
-visualizer_client = Client("https://fffiloni-animated-audio-visualizer.hf.space/")
+client = Client("#.hf.space/", hf_token=hf_token)
+lyrics_client = Client("#..hf.space/")
+visualizer_client = Client("#.hf.space/")
 
 from share_btn import community_icon_html, loading_icon_html, share_js
 
