@@ -14,7 +14,6 @@ To use the demo, simply upload an audio file and provide a title for the song. Y
 Note that only the first 30 seconds of the audio will be used for inference.
 
 ## Demo Video
-## Example Video
 
 [![Demo](https://img.youtube.com/vi/okOyY12WaRI/0.jpg)](https://www.youtube.com/watch?v=okOyY12WaRI)
 
