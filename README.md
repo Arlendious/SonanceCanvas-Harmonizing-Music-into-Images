@@ -15,9 +15,7 @@ Note that only the first 30 seconds of the audio will be used for inference.
 
 ## Demo Video
 
-Here is an example video output from the demo:
-
-<iframe width="560" height="315" src="https://youtu.be/okOyY12WaRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/okOyY12WaRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Requirements
 
